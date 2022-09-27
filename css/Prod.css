@@ -1,0 +1,115 @@
+
+.categories{
+	margin:70px 0 ;
+}
+@font-face{
+	font-family:"TITULOS";
+	src: url("../fonts/Monea.otf") ;
+}
+@font-face{
+	font-family:"CUERPO";
+	src: url("../fonts/Louis George Cafe.ttf") ;
+}
+@font-face{
+	font-family:"CUERPO2";
+	src: url("../fonts/Louis George Cafe Light.ttf") ;
+}
+@font-face{
+	font-family:"SUBTITULO";
+	src: url("../fonts/Louis George Cafe Bold.ttf") ;
+}
+.col-3{
+	flex-basis:30% ;
+	min-width:250px ;
+	margin-bottom:30px ;
+}
+.col-3 img{
+	width: 100%;
+}
+}
+.container{
+	max-width:1080px ;
+	margin: auto;
+	padding-left:25px;
+	padding-right:25px ;
+	
+}
+.col-4{
+	flex-basis: 25%;
+	padding: 10px;
+	min-width:200px ;
+	margin-bottom:50px ;
+	transition: tranform 0.5s;
+}
+.col-4 img{
+	width: 100%;
+
+}
+h4{
+color: #8C3730;
+font-weight:normal ;	
+}
+.col-4 p{
+	font-size:14px ;
+}
+.col-4:hover{
+	transform:translateY(-5px) ;
+}
+.page-btn{
+	margin: 0 auto 80px;
+
+}
+.page-btn span{
+	display: inline-block;
+	border: 1px solid #DFDBD8;
+	margin-left:10px ;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer;
+}
+.page-btn span:hover{
+	background: #8C3730 ;
+	color: #fff;
+}
+
+.social-bar
+{
+	position: fixed;
+	right: 0;
+	top: 35%;
+	font-size: 1.0rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}
+.fa-brands{
+	color: black;
+	text-decoration:none ;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+}
+.fa-facebook-square{
+	background-color:#537A4E ;
+}
+.fa-instagram{
+	background-color: #537A4E;
+}
+.fa-pinterest-square{
+	background-color: #537A4E;
+
+}
+.fa-brands:first-child{
+	border-radius: 1rem 0 0 0;
+}
+.fa-brands:last-child{
+	border-radius: 0 0 0 1rem;
+}
+.fa-brands:hover{
+	padding-right: 3rem;
+	border-radius: 1rem 0 0 1rem;
+	box-shadow:0 0 .5rem rgba(0, 0, 0, 0.42) ;
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> CARRITO DE COMPRAS</title>
+	<link rel="stylesheet" type="text/css" href="css/carrito.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/verdetalles.js"></script>
+  <script src="https://kit.fontawesome.com/e974c16b35.js" crossorigin="anonymous"></script>
+	<link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+</head>
+<body>
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<div class="container">
+  <table id="cart" class="table table-hover table-condensed">
+            <thead>
+            <tr>
+              <th style="width:50%">Producto</th>
+              <th style="width:10%">Precio</th>
+              <th style="width:8%">Cantidad</th>
+              <th style="width:22%" class="text-center">Subtotal</th>
+              <th style="width:10%"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-th="Product">
+                <div class="row">
+                  <div class="col-sm-2 hidden-xs"><img src="img/terra2.png" style="width: 100px; width: 100px;" alt="..." class="img-responsive"/></div>
+                  <div class="col-sm-10">
+                    <h4 class="nomargin">LIBRO TERRA</h4>
+                    <p>Nuestro libro TERRA, cuenta con ilustraciones hechas por nosotros, en donde queremos resaltar el valor de las artesanías y artesanos...</p>
+                  </div>
+                </div>
+              </td>
+              <td data-th="Price">$50.000</td>
+              <td data-th="Quantity">
+                <input type="number" class="form-control text-center" value="1">
+              </td>
+              <td data-th="Subtotal" class="text-center">50.000</td>
+              <td class="actions" data-th=""> 
+                <button class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
+                <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>                
+              </td>
+            </tr>
+            <tr>
+              <td data-th="Product">
+                <div class="row">
+                  <div class="col-sm-2 hidden-xs"><img src="img/cn1.jpg" style="width: 100px; width: 100px;" alt="..." class="img-responsive"/></div>
+                  <div class="col-sm-10">
+                    <h4 class="nomargin">Ilustración "MOPA-MOPA"</h4>
+                    <p>Ilustración de la planta Mopa Mopa elaborada por Nicol Valero, en donde se resalta su textura y forma...</p>
+                  </div>
+                </div>
+              </td>
+              <td data-th="Price">$10.000</td>
+              <td data-th="Quantity">
+                <input type="number" class="form-control text-center" value="1">
+              </td>
+              <td data-th="Subtotal" class="text-center">10.000</td>
+              <td class="actions" data-th=""> 
+                <button class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
+                <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>                
+              </td>
+            </tr>
+             <tr>
+              <td data-th="Product">
+                <div class="row">
+                  <div class="col-sm-2 hidden-xs"><img src="img/PR2.jpg "style="width: 100px; width: 100px;" alt="..." class="img-responsive"/></div>
+                  <div class="col-sm-10">
+                    <h4 class="nomargin">Ilustración "CAÑA FLECHA"</h4>
+                    <p>Ilustración de la planta Caña Flecha  elaborada por Julián Rizo, en donde se resalta su color y su textura...</p>
+                  </div>
+                </div>
+              </td>
+              <td data-th="Price">$10.000</td>
+              <td data-th="Quantity">
+                <input type="number" class="form-control text-center" value="1">
+              </td>
+              <td data-th="Subtotal" class="text-center">10.000</td>
+              <td class="actions" data-th=""> 
+                <button class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
+                <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>                
+              </td>
+            </tr>
+                  <tr>
+              <td data-th="Product">
+                <div class="row">
+                  <div class="col-sm-2 hidden-xs"><img src="img/AL1.jpg "style="width: 100px; width: 100px;" alt="..." class="img-responsive"/></div>
+                  <div class="col-sm-10">
+                    <h4 class="nomargin">Ilustración "ALGODÓN"</h4>
+                    <p>Ilustración de la planta del Algodón  elaborada por Karol Martínez, en donde se resalta su color y forma...</p>
+                  </div>
+                </div>
+              </td>
+              <td data-th="Price">$10.000</td>
+              <td data-th="Quantity">
+                <input type="number" class="form-control text-center" value="1">
+              </td>
+              <td data-th="Subtotal" class="text-center">10.000</td>
+              <td class="actions" data-th=""> 
+                <button class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
+                <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>                
+              </td>
+            </tr>
+                  <tr>
+              <td data-th="Product">
+                <div class="row">
+                  <div class="col-sm-2 hidden-xs"><img src="img/ach.jpg"style="width: 100px; width: 100px;" alt="..." class="img-responsive"/></div>
+                  <div class="col-sm-10">
+                    <h4 class="nomargin">Ilustración "ACHIOTE"</h4>
+                    <p>Ilustración de la planta de Achiote  elaborada por Laura Padilla, en donde se resalta su textura y color...</p>
+                  </div>
+                </div>
+              </td>
+              <td data-th="Price">$10.000</td>
+              <td data-th="Quantity">
+                <input type="number" class="form-control text-center" value="1">
+              </td>
+              <td data-th="Subtotal" class="text-center">10.000</td>
+              <td class="actions" data-th=""> 
+                <button class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
+                <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>                
+              </td>
+            </tr>
+
+
+
+
+
+
+
+          <tfoot>
+            <tr>
+              <td><a href="productos.html" class="btn btn-success"><i class="fa fa-angle-left"></i> Seguir comprando</a></td>
+              <td colspan="2" class="hidden-xs"></td>
+              <td class="hidden-xs text-center"><strong>Total $90.000</strong></td>
+              <td><a href="proceso.html" class="btn btn-success btn-block">Comprar <i class="fa fa-angle-right"></i></a></td>
+            </tr>
+          </tfoot>
+        </table>
+</div>
+<center><img src="img/Slogan.png"></center>
+</body>
+</html>
